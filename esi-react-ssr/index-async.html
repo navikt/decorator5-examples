@@ -9,7 +9,9 @@
     <div class="pagewrapper">
       <esi:include src="http://127.0.0.1:9000/skiplinks" />
       <esi:include src="http://127.0.0.1:9000/header" />
-      <div id="app">{{{APP}}}</div>
+      <div id="app">
+        <esi:include src="http://127.0.0.1:7070/app"/>
+      </div>
     </div>
     <esi:include src="http://127.0.0.1:9000/footer" />
   </body>
