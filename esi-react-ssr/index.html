@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <esi:include src="http://127.0.0.1:9000/scripts" />
+    <esi:include src="http://127.0.0.1:9000/styles" />
+    <esi:include src="http://127.0.0.1:9000/megamenu" />
+  </head>
+  <body>
+    <div class="pagewrapper">
+    <esi:include src="http://127.0.0.1:9000/skiplinks" />
+    <esi:include src="http://127.0.0.1:9000/header" />
+      <div id="app">{{{APP}}}</div>
+    </div>
+    <esi:include src="http://127.0.0.1:9000/footer" />
+  </body>
+</html>
