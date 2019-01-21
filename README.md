@@ -39,3 +39,16 @@ Goto [localhost](http://localhost:9898/)
     </body>
   </html>
 ```
+
+## Running tailor-react example
+
+1. Run [decorator5-fragments-server](https://github.com/navikt/decorator5-fragments-server)
+ (By default this runs on port 9000)
+2. Run
+```
+  cd tailor-react
+  npm install
+  npm run build
+  node tailor.js
+```
+3. Goto [localhost](http://localhost:7070/)
